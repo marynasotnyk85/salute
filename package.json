@@ -1,0 +1,17 @@
+{
+  "name": "simple-tailwind-starter",
+  "version": "1.0.0",
+  "description": "Fylo landing page with dark/light mode switcher from my Tailwind course and from [Frontend Mentor Challenge](https://www.frontendmentor.io/challenges/loopstudios-landing-page-N88J5Onjw)",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/style.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "tailwindcss": "^3.3.3"
+  }
+}

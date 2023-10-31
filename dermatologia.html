@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap"
+    rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>Nostri Specialisti</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+    <script>$(document).ready(function(){  $('#footer').load("footer.html");});</script>
+</head>
+<body>
+  <div class="w-full bg-pink">
+    <div class="container  mx-auto px-6 pt-12 ">
+      <nav class="flex items-center justify-between font-bold text-blueMC">
+        
+        <img src="/images/logo.png" alt="" class="w-24"/>
+        
+        <div class="hidden h-10 font-alata md:flex md:space-x-8">
+            <div class="group">
+                <a href="/index.html">HOME</a>
+                <div
+                class="mx-2 group-hover:border-b group-hover:border-blue-50"
+                ></div>
+              </div>
+          <div class="group">
+            <a href="index.html#servizi">SERVIZI</a>
+            <div
+            class="mx-2 group-hover:border-b group-hover:border-blue-50"
+            ></div>
+          </div>
+          <div class="group">
+            <a href="/nostrispecialisti.html">CHI SIAMO</a>
+            <div
+            class="mx-2 group-hover:border-b group-hover:border-blue-50"
+            ></div>
+          </div>
+          <div class="group">
+            <a href="/contatti.html">CONTATTI</a>
+            <div
+            class="mx-2 group-hover:border-b group-hover:border-blue-50"
+            ></div>
+          </div>
+        </div>
+        
+        <div class="md:hidden">
+          <button
+          id="menu-btn"
+          type="button"
+          class="z-40 block hamburger md:hidden focus:outline-none"
+          >
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+      </div>
+    </nav>
+    
+    <!-- Mobile Menu -->
+    <div
+    id="menu"
+    class="absolute top-0  left-0 hidden flex-col self-end w-full h-hit  pb-24 py-1 pt-40 pl-12 space-y-3 text-lg text-white uppercase bg-blueMC"
+    >
+    <a href="index.html" class="pb-8 hover:text-pink-400 hover:underline-offset">Home</a>
+    <a href="index.html#servizi" class="pb-8 hover:text-pink-400 hover:underline-offset">Servizi</a>
+    <a href="nostrispecialisti.html" class="pb-8 hover:text-pink-400 hover:underline-offset">Chi Siamo</a>
+    <a href="contatti.html" class="pb-8 hover:text-pink-400 hover:underline-offset">Contatti</a>
+  </div>
+</div>
+</div>
+    
+    
+    <section id="info">
+   
+        <div class="bg-white py-24 sm:py-32">
+            <div class="mx-auto max-w-7xl px-6 lg:px-8">
+              <div class="mx-auto max-w-2xl lg:text-center">
+                <img  src="images/dermatologia-svg.svg" alt="alerlogogia" class="center w-24 m-2 mx-auto mb-5" />
+                <p class="mt-2 text-3xl font-bold tracking-tight text-blueMC sm:text-4xl">Benvenuti nel Reparto di Dermatologia</p>
+                <p class="mt-6 text-lg leading-8 text-gray-600">Nel nostro centro medico, ci dedichiamo alla salute della pelle e alla promozione del benessere dermatologico. Il nostro team di esperti dermatologi è impegnato a fornire cure avanzate e personalizzate per affrontare una vasta gamma di condizioni cutanee.</p>
+              </div>
+              <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
+                <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
+                  <div class="relative pl-16">
+                    <dt class="text-base font-semibold leading-7 text-gray-900">
+                      <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-blueMC text-white">
+                        <span>&#10003;</span>
+                      </div>
+                      Esami Dermatologici Completi:
+                    </dt>
+                    <dd class="mt-2 text-base leading-7 text-gray-600">Effettuiamo esami approfonditi per diagnosticare e trattare una varietà di condizioni dermatologiche.</dd>
+                  </div>
+                  <div class="relative pl-16">
+                    <dt class="text-base font-semibold leading-7 text-gray-900">
+                        <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-blueMC text-white">
+                            <span>&#10003;</span>
+                      </div>
+                      Trattamenti per l'Acne e la Pelle Problematica: 
+                    </dt>
+                    <dd class="mt-2 text-base leading-7 text-gray-600">Offriamo soluzioni personalizzate per affrontare l'acne e altri problemi cutanei.</dd>
+                  </div>
+                  <div class="relative pl-16">
+                    <dt class="text-base font-semibold leading-7 text-gray-900">
+                        <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-blueMC text-white">
+                            <span>&#10003;</span>
+                      </div>
+                      Screening per il Cancro della Pelle
+                    </dt>
+                    <dd class="mt-2 text-base leading-7 text-gray-600">Effettuiamo controlli periodici per individuare precocemente eventuali segni di tumori cutanei.</dd>
+                  </div>
+                  <div class="relative pl-16">
+                    <dt class="text-base font-semibold leading-7 text-gray-900">
+                        <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-blueMC text-white">
+                            <span>&#10003;</span>
+                      </div>
+                      Terapie per Dermatiti e Allergie
+                    </dt>
+                    <dd class="mt-2 text-base leading-7 text-gray-600">Forniamo trattamenti mirati per gestire dermatiti, allergie cutanee e altre condizioni correlate.</dd>
+                  </div>
+                  <div class="relative pl-16">
+                    <dt class="text-base font-semibold leading-7 text-gray-900">
+                        <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-blueMC text-white">
+                            <span>&#10003;</span>
+                      </div>
+                      Procedure Cosmetiche non Invasive:
+                    </dt>
+                    <dd class="mt-2 text-base leading-7 text-gray-600"> Offriamo trattamenti estetici come peeling chimici e procedure laser per migliorare l'aspetto della pelle.</dd>
+                  </div>
+                  <div class="relative pl-16">
+                    <dt class="text-base font-semibold leading-7 text-gray-900">
+                        <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-blueMC text-white">
+                            <span>&#10003;</span>
+                      </div>
+                      Rimozione di Neoformazioni Cutanee: 
+                    </dt>
+                    <dd class="mt-2 text-base leading-7 text-gray-600"> Utilizziamo tecniche avanzate per rimuovere nei, verruche e altre lesioni cutanee non desiderate.</dd>
+                  </div>
+                </dl>
+              </div>
+            </div>
+          </div>
+</section>
+
+<div class="pt-10 pb-24 text-center">
+  <a  href="index.html">
+  <button
+  type="button"
+  class="max-w-lg  rounded bg-blueMC px-8 pb-2 pt-2.5 text-base font-medium uppercase leading-normal text-white
+  shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out 
+  hover:bg-[#2C3460]   hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] 
+  focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]">
+  Torna  <span class="pl-3"> </span> indietro
+</button>
+</a>
+</div>
+<!-- Footer -->
+<div id="footer"></div>
+<div data-include="footer.html"></div>
+
+<script type = "text/javascript" src="js/script.js" defer></script>
+</body>
+</html>

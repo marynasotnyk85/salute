@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+  
+  
+  
+  <title>SALUTE </title>
+</head>
+<div class="w-full bg-pink">
+  <div class="container  mx-auto px-6 pt-12 ">
+    <nav class="flex items-center justify-between font-bold text-blueMC ">
+      <!-- Logo -->
+      <img src="/images/logo.png" alt="" class="w-24"/>
+      <!-- Menu -->
+      <div class="hidden h-10 font-alata md:flex md:space-x-8">
+        <div class="group">
+          <a href="/index.html">HOME</a>
+          <div
+          class="mx-2 group-hover:border-b group-hover:border-blue-50"
+          ></div>
+        </div>
+        <div class="group">
+          <a href="/index.html#servizi">SERVIZI</a>
+          <div
+          class="mx-2 group-hover:border-b group-hover:border-blue-50"
+          ></div>
+        </div>
+        <div class="group">
+          <a href="/nostrispecialisti.html">CHI SIAMO</a>
+          <div
+          class="mx-2 group-hover:border-b group-hover:border-blue-50"
+          ></div>
+        </div>
+        <div class="group">
+          <a href="/contatti.html">CONTATTI</a>
+          <div
+          class="mx-2 group-hover:border-b group-hover:border-blue-50"
+          ></div>
+        </div>
+      </div>
+      <!-- Hamburger Button -->
+      <div class="md:hidden">
+        <button
+        id="menu-btn-mobile"
+        type="button"
+        class="z-40 block hamburger md:hidden focus:outline-none"
+        >
+        <span class="hamburger-top"></span>
+        <span class="hamburger-middle"></span>
+        <span class="hamburger-bottom"></span>
+      </button>
+    </div>
+  </nav>
+  <!-- Mobile Menu -->
+  <div
+  id="menu-mobile"
+  class="absolute top-0  left-0 hidden flex-col self-end w-full h-fit pb-14 py-1 pt-40 pl-12 space-y-3 text-lg text-white uppercase bg-blueMC"
+  >
+  <a href="#servizi" class="hover:text-pink-400 hover:underline-offset">Servizi</a>
+  <a href="nostrispecialisti.html" class="hover:text-pink-400 hover:underline-offset">Chi Siamo</a>
+  <a href="contatti.html" class="hover:text-pink-400 hover:underline-offset">Contatti</a>
+</div>
+
+</div>
+</div>
+<script src="js/script.js" defer ></script>
+  
+</body>
+
+</html>

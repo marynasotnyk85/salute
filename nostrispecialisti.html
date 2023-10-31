@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/style.css" />
+  <title> Chi siamo </title>
+  <script>$(document).ready(function(){  $('#footer').load("footer.html");});</script>
+</head>
+<body>
+    <div class="w-full bg-pink">
+        <div class="container  mx-auto px-6 pt-12 ">
+          <nav class="flex items-center justify-between font-bold text-blueMC">
+            
+            <img src="/images/logo.png" alt="" class="w-24"/>
+            
+            <div class="hidden h-10 font-alata md:flex md:space-x-8">
+              <div class="group">
+                <a href="/index.html">HOME</a>
+                <div
+                class="mx-2 group-hover:border-b group-hover:border-blue-50"
+                ></div>
+              </div>
+              <div class="group">
+                <a href="index.html#servizi">SERVIZI</a>
+                <div
+                class="mx-2 group-hover:border-b group-hover:border-blue-50"
+                ></div>
+              </div>
+              <div class="group">
+                <a href="/nostrispecialisti.html">CHI SIAMO</a>
+                <div
+                class="mx-2 group-hover:border-b group-hover:border-blue-50"
+                ></div>
+              </div>
+              <div class="group">
+                <a href="/contatti.html">CONTATTI</a>
+                <div
+                class="mx-2 group-hover:border-b group-hover:border-blue-50"
+                ></div>
+              </div>
+            </div>
+            
+            <div class="md:hidden">
+              <button
+              id="menu-btn"
+              type="button"
+              class="z-40 block hamburger md:hidden focus:outline-none"
+              >
+              <span class="hamburger-top"></span>
+              <span class="hamburger-middle"></span>
+              <span class="hamburger-bottom"></span>
+            </button>
+          </div>
+        </nav>
+        
+        <!-- Mobile Menu -->
+        <div
+        id="menu"
+        class="absolute top-0  left-0 hidden flex-col self-end w-full h-hit  pb-24 py-1 pt-40 pl-12 space-y-3 text-lg text-white uppercase bg-blueMC"
+        >
+        <a href="index.html" class="pb-8 hover:text-pink-400 hover:underline-offset">Home</a>
+        <a href="index.html#servizi" class="pb-8 hover:text-pink-400 hover:underline-offset">Servizi</a>
+        <a href="nostrispecialisti.html" class="pb-8 hover:text-pink-400 hover:underline-offset">Chi Siamo</a>
+        <a href="contatti.html" class="pb-8 hover:text-pink-400 hover:underline-offset">Contatti</a>
+      </div>
+    </div>
+    </div>
+  
+    
+    <section id="stuff">
+    <div class="bg-white">
+        <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+           
+            <div class=" md:py-24 mx-auto max-w-4xl px-6 lg:px-8 text-justify">
+                <p> Presso il nostro centro medico, ci vantiamo di avere una squadra di specialisti altamente qualificati e dedicati, ognuno con un'ampia esperienza nel proprio campo. 
+                    <br>
+                    I nostri medici sono impegnati a fornire cure di alta qualità, mettendo sempre al primo posto la salute e il benessere dei pazienti.
+                    <br>
+                    Ogni membro del nostro team porta con sé una vasta conoscenza e competenza nella propria specializzazione, garantendo che i pazienti ricevano le migliori cure possibili. Siamo uniti dall'obiettivo comune di fornire servizi medici eccellenti e di creare un ambiente accogliente e confortevole per tutti i pazienti.
+                    <br>
+                    Abbiamo a cuore la vostra salute e siamo qui per rispondere a tutte le vostre domande e preoccupazioni. 
+                    <br>
+                    Siamo grati per la fiducia che i nostri pazienti ci dimostrano e ci impegniamo a continuare a superare le aspettative nella cura della vostra salute.</p>
+                </div>
+
+
+            <div class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+                <a href="#" class="group">
+                    <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                        <img src="images/doc2.png" alt="" class="h-full w-full object-cover object-center group-hover:opacity-75">
+                    </div>
+                    <h3 class="mt-1 text-lg text-center font-medium text-gray-900">Maria Rossi</h3>
+                    <p class="mt-4 text-sm text-center text-gray-700 ">Medico chirurgo specialista in Ostetricia e Ginecologia</p>
+                </a>
+            
+                <a href="#" class="group">
+                    <div class="relative aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                        <img src="images/doc6.png" alt="" class="h-full w-full object-cover object-center group-hover:opacity-75">
+                    </div>
+                    <h3 class="mt-1 text-lg font-medium text-gray-900 text-center">Anna Verdi</h3>
+                    <p class="mt-4 text-sm text-gray-700 text-center">Specialista in Dermatologia e venereologia</p>
+                </a>
+                <a href="#" class="group">
+                    <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                        <img src="images/doc4.png" alt="" class="h-full w-full object-cover object-center group-hover:opacity-75">
+                    </div>
+                    <h3 class="mt-1 text-lg font-medium text-gray-900 text-center">Marco Bianco</h3>
+                    <p class="mt-4 text-sm text-gray-700 text-center">Specialista in Cardiologia</p>
+                </a>
+                <a href="#" class="group">
+                    <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                        <img src="images/doc3.png" alt="" class="h-full w-full object-cover object-center group-hover:opacity-75">
+                    </div>
+                    <h3 class="mt-1 text-lg font-medium text-gray-900 text-center">Francesco Rossi</h3>
+                    <p class="mt-4 text-sm text-gray-700 text-center">Specialista in Allergologia</p>
+                </a>
+                <a href="#" class="group">
+                    <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                        <img src="images/doc5.png" alt="" class="h-full w-full object-cover object-center group-hover:opacity-75">
+                    </div>
+                    <h3 class="mt-1 text-lg font-medium text-gray-900 text-center">Lorenzo Neri</h3>
+                    <p class="mt-4 text-sm text-gray-700 text-center">Specialista in Urologia</p>
+                </a>
+              
+                <!-- More products... -->
+            </div>
+        </div>
+    </div>
+</section>
+<div class="md:hidden pt-10 pb-24 text-center">
+    <a  href="index.html">
+    <button
+    type="button"
+    class="max-w-lg  rounded bg-blueMC px-8 pb-2 pt-2.5 text-base font-medium uppercase leading-normal text-white
+    shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out 
+    hover:bg-[#2C3460]   hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] 
+    focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]">
+    Torna  <span class="pl-3"> </span> indietro
+  </button>
+  </a>
+  </div>
+<!-- Footer -->
+<div id="footer"></div>
+<div data-include="footer.html"></div>
+<script type = "text/javascript" src="js/script.js" defer></script>
+</body>
+</html>
